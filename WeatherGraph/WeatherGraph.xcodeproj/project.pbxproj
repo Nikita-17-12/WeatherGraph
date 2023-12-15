@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1745EBEB2B2C865D00A11D31 /* CircularDragProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745EBEA2B2C865D00A11D31 /* CircularDragProgressView.swift */; };
 		F0E1740A2B2AF3A00084D5CC /* WeatherGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E174092B2AF3A00084D5CC /* WeatherGraphApp.swift */; };
 		F0E1740E2B2AF3A20084D5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E1740D2B2AF3A20084D5CC /* Assets.xcassets */; };
 		F0E174122B2AF3A20084D5CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E174112B2AF3A20084D5CC /* Preview Assets.xcassets */; };
@@ -14,10 +15,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1745EBEA2B2C865D00A11D31 /* CircularDragProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularDragProgressView.swift; sourceTree = "<group>"; };
 		F0E174062B2AF3A00084D5CC /* WeatherGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E174092B2AF3A00084D5CC /* WeatherGraphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGraphApp.swift; sourceTree = "<group>"; };
 		F0E1740D2B2AF3A20084D5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0E1740F2B2AF3A20084D5CC /* WeatherGraph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherGraph.entitlements; sourceTree = "<group>"; };
 		F0E174112B2AF3A20084D5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0E174182B2AF40D0084D5CC /* WeatherGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,8 +56,8 @@
 				F0E174092B2AF3A00084D5CC /* WeatherGraphApp.swift */,
 				F0E174182B2AF40D0084D5CC /* WeatherGraphView.swift */,
 				F0E1740D2B2AF3A20084D5CC /* Assets.xcassets */,
-				F0E1740F2B2AF3A20084D5CC /* WeatherGraph.entitlements */,
 				F0E174102B2AF3A20084D5CC /* Preview Content */,
+				1745EBEA2B2C865D00A11D31 /* CircularDragProgressView.swift */,
 			);
 			path = WeatherGraph;
 			sourceTree = "<group>";
@@ -139,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1745EBEB2B2C865D00A11D31 /* CircularDragProgressView.swift in Sources */,
 				F0E174192B2AF40D0084D5CC /* WeatherGraphView.swift in Sources */,
 				F0E1740A2B2AF3A00084D5CC /* WeatherGraphApp.swift in Sources */,
 			);
@@ -266,12 +268,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WeatherGraph/WeatherGraph.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherGraph/Preview Content\"";
-				DEVELOPMENT_TEAM = CJESF9R9MD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,12 +308,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WeatherGraph/WeatherGraph.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherGraph/Preview Content\"";
-				DEVELOPMENT_TEAM = CJESF9R9MD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

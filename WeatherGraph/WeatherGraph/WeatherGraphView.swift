@@ -13,6 +13,15 @@ struct WeatherGraphView: View {
     @State private var isOn: Bool = false
     @State private var tempStr: String = "_ _°"
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .light)
+    
+    private func roundedString(from value: Double, decimalPlaces: Int) -> String {
+          let formatter = NumberFormatter()
+          formatter.minimumFractionDigits = decimalPlaces
+          formatter.maximumFractionDigits = decimalPlaces
+          formatter.roundingMode = .ceiling
+          formatter.roundingIncrement = 0.5
+          return formatter.string(from: NSNumber(value: value)) ?? "\(value)"
+      }
   
     var body: some View {
         VStack {
@@ -132,13 +141,16 @@ struct WeatherGraphView: View {
            withAnimation {
                dragAmount = newDragAmount
            }
-        let percent = Int(progress * 100)
+        let percent = Double(progress * 100)
         
         if percent > 99 {
                 tempStr = "99°"
                 isOn = false
         } else {
-            tempStr = "\(percent)°"
+           // tempStr = "\(percent)°"
+         //   tempStr = "\(String(format: "%.1f", percent))°"
+            print(percent)
+            tempStr = "\(roundedString(from: percent, decimalPlaces: 1))°"
        }
     }
 
