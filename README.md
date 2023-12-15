@@ -6,4 +6,4 @@ We have completed the task. Kindly find update as below :-
 - Task will run in iPhone device and in portrait mode.
 
 Kindly find video of task as below :-
-- https://drive.google.com/file/d/14WRXDLoCvyIn2-pshk51Culho-S-s6__/view?usp=sharing
+- https://drive.google.com/file/d/1n1DrfjxhHqcU-d3oYX4Q6JNniPB2Ayjy/view?usp=sharing
