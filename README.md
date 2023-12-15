@@ -1,7 +1,7 @@
 # WeatherGraph
 
 We have completed the task. Kindly find update as below :-
-- We have using SwiftUI
+- We have used SwiftUI.
 - We have developed this task in xCode 15.1.
 - Task will run in iPhone device and in portrait mode.
 
